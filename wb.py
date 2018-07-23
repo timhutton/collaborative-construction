@@ -38,7 +38,7 @@ area[13][area_y-1] = 3
 # initialize the players
 players = [ [[4+i*3,wallV*2],(255,255,255),1] for i in range(num_players)]
 
-brick_colors = [ (0,0,0),(0,255,0), (255,0,0), (128,0,128), (255,128,0) ]
+brick_colors = [ (0,0,0), (0,0,200), (200,200,200), (128,255,255), (255,128,0) ]
 background_color = (0,0,0)
 
 def placeInWall(x,b):
